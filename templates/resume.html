@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block title %}Mukesh's Resume{% endblock title %}
+
+{% block homeActive %}"nav-link scrollto"{% endblock homeActive %}
+{% block aboutActive %}"nav-link scrollto"{% endblock aboutActive %}
+{% block resumeActive %}"nav-link scrollto active"{% endblock resumeActive %}
+{% block contactActive %}"nav-link scrollto"{% endblock contactActive %}
+
+{% block body %}
+
+<!-- ======= Resume Section ======= -->
+<section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p></p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-up">
+          <h3 class="resume-title">Sumary</h3>
+          <div class="resume-item pb-0">
+            <h4>Mukesh Mithiya</h4>
+            <p><em>Innovative and deadline-driven Python Developer with hands-on experience in designing and developing user-centered Python scripts from initial concept to final, polished deliverable.</em></p>
+            <ul>
+              <li>Mumbai, Maharashtra, India</li>
+              <li>(+91) 7776948538</li>
+              <li>mukeshbhanushali161@gmail.com</li>
+            </ul>
+          </div>
+
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>Bachelors in Mechanical Engineering</h4>
+            <h5>2018 - 2022</h5>
+            <p><em>Dwarkadas J. Sanghvi College of Engineering, Mumbai</em></p>
+            <p>Graduated with C.G.P.A of 8.13</p>
+          </div>
+          <div class="resume-item">
+            <h4>High School</h4>
+            <h5>2017 - 2018</h5>
+            <p><em>M. H. Kalra College of Science, Mumbai</em></p>
+            <p>Achieved 81.96&percnt; in final examination</p>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">Projects</h3>
+          <div class="resume-item">
+            <h4>WhatsApp Bot Using Twilio and Python</h4>
+            <h5>06/2022 - Present</h5>
+            <ul>
+              <li>Returns response based on the command</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <h4>Inventory Management System with JSON files</h4>
+            <h5>08/2021 - 09/2021</h5>
+            <ul>
+              <li>Adding and buying products from the inventory</li>
+              <li>Generate invoice and update the quantity</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <h4>Summer Olympics Analysis in Jupyter Notebook</h4>
+            <h5>08/2021 - 09/2021</h5>
+            <ul>
+              <li>Analysis of olympics data stored in CSV file using pandas</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <h4>Design and Analysis of Duct for Small Scale Wind Turbine (B. E. Project)</h4>
+            <h5>08/2021 - 04/2022</h5>
+            <ul>
+              <li>Determined the best duct shape</li>
+              <li>Achieved increase in speed of wind</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</section><!-- End Resume Section -->
+
+{% endblock body %}
